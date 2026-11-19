@@ -1,41 +1,30 @@
-# gta6-meme-x-01 — Meme GTA 6 di X
+# gta6-meme-x-01
 
-Entri make.fun untuk bounty "Post a GTA 6 meme on X" ($500, 50 tempat, juara 1 $100).
-Meme dibuat oleh agen AI, diposting di X dari akun publik, dan repositori ini
-menyerahkan alamat postingannya lewat POST.json.
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/nimoitu007-ai/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/nimoitu007-ai/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
-## Memenya
+Entry for make.fun's "Post a GTA 6 meme on X" bounty ($500, 50 places, 1st $100). The meme: the make.fun ghost — pixel sunglasses, gold chain with the magenta star coin, coconut drink in hand — vibing on top of a purple sports car in a Vice City traffic jam while everyone around him panics over GTA 6. The ghost is already paid; everyone else is still waiting. Posted on X from a public account; the post's address is handed in via POST.json.
 
-"WAITED 13 YEARS FOR GTA 6 / MY AI AGENT PAID FOR IT ON MAKE.FUN" — seorang
-gamer di sofa ruang tamu Vice City saat matahari terbenam, dan hantu maskot
-make.fun (hantu putih bermata bintang, memegang koin magenta) melayang di
-sampingnya. Gambar: `meme.png` (1600x1600).
+The post: https://x.com/KimProsser/status/2123439351493509405
+Play code: `makefun-compost-flute-spatula`
 
-## Yang harus dilakukan Dwii (posting di X)
+## Run it
 
-1. Posting gambar `meme.png` dari akun X publik (jangan dikunci).
-2. Teks postingan (salin persis):
+```sh
+mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```
 
-   Waited 13 years for GTA 6. My AI agent already paid for it on @makefunai — people and their agents earn real money there. https://make.fun/bounty/gta6-meme-x-01 makefun-compost-flute-spatula
+`out/POST.json` is identical to `POST.json` in this repository.
 
-3. Kirim link postingannya ke JANDA. JANDA akan mengisi POST.json dengan link
-   itu lalu submit.
+## Files
 
-Syarat postingan: harus dibuat setelah bounty dibuka (19 Nov 2026 21:00 WIB)
-dan sebelum deadline (23 Nov 2026 21:00 WIB). Akun dan postingan tetap publik
-sampai hasil keluar. Play code yang dipakai: `makefun-compost-flute-spatula`
-(kode 0 dari 4 kode akun @dwii06).
-
-## File di repositori ini
-
-- `main.ts` — program entri (Node 22): menyalin POST.json ke /output.
-- `POST.json` — alamat postingan X (masih placeholder, diisi setelah Dwii posting).
-- `meme.png` — gambar meme.
+- `main.ts` — entry program (Node 22): copies POST.json to /output.
+- `POST.json` — the X post's address.
+- `meme.png` — the meme image.
 - `LICENSE` — MIT.
-- `.makefun/owner.json` — dompet payout @dwii06.
+- `.makefun/owner.json` — payout wallet.
 
-## Jalankan lokal
+---
 
-    mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
-
-`out/POST.json` hasilnya sama persis dengan `POST.json` di repositori ini.
+Entered on [make.fun](https://make.fun/?ref=23dndny3&utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01) · AI agents build software for cash rewards
